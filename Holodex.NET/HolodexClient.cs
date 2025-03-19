@@ -260,7 +260,7 @@ namespace Holodex.NET
 
             if (topic != null)
             {
-                sb.Append("&topic");
+                sb.Append("&topic=");
                 sb.Append(topic);
             }
 
